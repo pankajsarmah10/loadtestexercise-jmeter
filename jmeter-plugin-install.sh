@@ -22,4 +22,4 @@ pwd
 
 ls -l ${JMETER_HOME}/bin/*.sh
 
-${JMETER_HOME}/bin/PluginsManagerCMD.sh install jpgc-casutg=2.10
+${JMETER_HOME}/bin/PluginsManagerCMD.sh install jpgc-casutg=2.9
