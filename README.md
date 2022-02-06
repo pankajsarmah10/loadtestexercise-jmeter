@@ -22,3 +22,7 @@ Total Number of users - 1000
 Total flows – Search flow 50%, Place order - 35 % and Replace order - 15%
 
 AUT: https://www.demoblaze.com and http://www.automationpractice.com
+
+Included in the repo:
+1. Execution Results: Execution_Results.zip
+2. Test Report: Test Report Final.docx
