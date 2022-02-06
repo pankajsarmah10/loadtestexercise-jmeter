@@ -50,3 +50,9 @@ jobs:
          for i in $( ls $GITHUB_WORKSPACE/*.jmx); do
             ./jmeter -n -t $i;
          done
+      
+      - name: Upload Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: jmeter-results
+          path: result.jtl
