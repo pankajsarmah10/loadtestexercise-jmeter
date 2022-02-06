@@ -41,7 +41,7 @@ jobs:
       - name: install plugins
         run: |
           cd $GITHUB_WORKSPACE/apache-jmeter-5.4.1
-          wget -q --no-check-certificate https://jmeter-plugins.org/files/packages/jpgc-casutg=2.10.zip  -P .
+          wget -q --no-check-certificate https://jmeter-plugins.org/files/packages/jpgc-casutg-2.10.zip  -P .
           unzip -o jpgc-casutg-2.10.zip
           
       - name: run jmx scripts
