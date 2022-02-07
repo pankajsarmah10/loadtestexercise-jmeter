@@ -1,9 +1,8 @@
-Load Test Exercise with JMeter
-
+**Load Test Exercise with JMeter**
 Each commit or pull request triggers the load test in GitHub Actions. To see the pipeline in action, push a new commit and go to Actions tab to see the Workflow running.
+Html results in zipped format are attached as artifact to the completed workflow. It can be downloaded and the report can be seen in the browser. 
 
-The .jtl artifact is attached to each workflow after completion of the execution. 
-
+**Script Execution**
 To execute the script locally follow the steps below:
 1. Clone the repo
 2. Download JMeter
@@ -12,6 +11,7 @@ To execute the script locally follow the steps below:
 jmeter -n -t "path to the jmx file" -l "path to the output.csv" -e -o "path to the new Html Results folder"
 Note: The folder that would contain the output.csv and the HTML Results folder should be empty.
 
+**Scenarios**
 Following scenarios are covered:
 1.	Perform a load test of 1000 visitors visiting the web app’s home page in a 15 seconds period.
 2.	Perform an end-to-end performance test of a checkout workflow.
@@ -23,6 +23,6 @@ Total flows – Search flow 50%, Place order - 35 % and Replace order - 15%
 
 AUT: https://www.demoblaze.com and http://www.automationpractice.com
 
-Included in the repo:
+**Included in the repo:**
 1. Execution Results: Execution_Results.zip
-2. Test Report: Test Report Final.docx
+2. Test Report: TestReportFinal.pdf
