@@ -8,7 +8,7 @@ To execute the script locally follow the steps below:
 2. Download JMeter
 3. Open terminal and go to the bin folder of JMeter
 4. Run the folowing command to generate an HTML report of the execution:
-jmeter -n -t "path to the jmx file" -l "path to the output.csv" -e -o "path to the new Html Results folder"
+**jmeter -n -t "path to the jmx file" -l "path to the output.csv" -e -o "path to the new Html Results folder"**
 Note: The folder that would contain the output.csv and the HTML Results folder should be empty.
 
 **Scenarios**
